@@ -1,0 +1,32 @@
+body {
+  background: url("bGraund.jpg");
+  font-family: "Montserrat", sans-serif;
+}
+
+#formsito {
+  border: black solid 0.5px;
+  border-radius: 1.5em;
+  background-color: rgba(245, 245, 245, 0.4);
+}
+
+#formsito:hover {
+  background-color: rgba(245, 245, 245, 0.45);
+}
+
+div .mistake {
+  text-align: center;
+  color: rgb(211, 39, 39);
+  display: none;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  margin-top: 0.8em;
+  padding-top: 0.3em;
+  border-radius: 0.6em;
+  font-family: "Saira", sans-serif;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 0.75em 0.75em -0.4em red;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
